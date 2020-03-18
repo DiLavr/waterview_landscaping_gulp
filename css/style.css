@@ -1,0 +1,124 @@
+/* Your custom styles */
+
+    html,
+    body,
+    header,
+    .jarallax {
+        height: 100%;
+    }
+
+    @media (max-width: 740px) {
+
+        html,
+        body,
+        header,
+        .jarallax {
+            height: 815px;
+        }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+        html,
+        body,
+        header,
+        .jarallax {
+            height: 600px;
+        }
+
+        #service_img {
+            visibility: hidden;
+            display: none;
+        }
+
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+        .navbar:not(.top-nav-collapse) {
+            background:rgba(0, 0, 0, .75);
+        }
+
+        .navbar {
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12) !important;
+        }
+
+    }
+
+#header_logo {
+    float: left;
+    width: 110px;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    top: -30px;
+    /* z-index: 1100; */
+    background: url(../img/nav_logo_with_outline_110x51.svg) top center no-repeat;
+}
+
+.model .jumbotron {
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+/* custom scrolling navbar color */
+.model .navbar:not(.top-nav-collapse) {
+    background-color: rgba(0, 0, 0, .65);
+    /* background-color: transparent; */
+    font-size: 120%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    }
+
+/* #about_color{
+
+    color:red;
+}
+
+.li > a {
+    color: red;
+} */
+
+.model .navbar {
+    background-color: rgba(0, 0, 0, .85);
+}
+
+
+
+.model .rgba-gradient-mask {
+    background: linear-gradient(45deg, rgba(139, 195, 74, .7), rgba(74, 189, 195, .8));
+}
+
+.custom-checkbox .custom-control-input:indeterminate~.custom-control-label::before {
+    border-color: #8bc34a;
+    background-color: #8bc34a
+}
+
+.bq-success {
+    border-left: 3px solid #8bc34a !important;
+}
+
+.border-success-light {
+    border-color: #8bc34a !important;
+    width: 75%;
+}
+
+a:not(.collapsed) .rotate-icon {
+
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg) 1sec;
+
+}
+
+.fa-angle-left {
+    float: right;
+    color: #8bc34a;
+}
+.model .jumbotron {
+    border-radius: 10px;
+}
+
+#service_img {
+    border-radius: 10px;
+}
