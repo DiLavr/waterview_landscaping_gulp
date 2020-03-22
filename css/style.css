@@ -129,3 +129,30 @@ a:not(.collapsed) .rotate-icon {
 #phone_match_copyright_color {
     color: rgba(255, 255, 255, .6);
 }
+
+/* custom colors for contact form */
+.active-light-green-textarea.md-form label.active {
+    color: #8bc34a;
+}
+
+.light-green-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #8bc34a;
+    box-shadow: 0 1px 0 0 #8bc34a;
+}
+
+.light-green-textarea.md-form .prefix.active {
+    color: #8bc34a;
+}
+
+.active-light-green-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: #8bc34a;
+}
+
+.active-light-green-textarea.md-form input[type=text]:focus:not([readonly])+label {
+    color: #8bc34a;
+}
+
+.active-light-green-textarea.md-form input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #8bc34a;
+    box-shadow: 0 1px 0 0 #8bc34a;
+}
