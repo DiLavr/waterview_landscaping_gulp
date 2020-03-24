@@ -292,9 +292,34 @@ border-top {
     border-top-width: 2px !important;
 }
 
-
+/* collapse header   */
 #service_header {
-
  height: 0px;
-
 }
+
+/* transpar ent of card color */
+#wanna {
+    background-color: rgb(255, 255, 255, 0.65);
+}
+
+#serviceHeader {
+    /* position: absolute; */
+    /* left: 40px;
+    right: 40px; */
+    /* display: inline-block; */
+    background: #583804;
+    color: white;
+    /* -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%); */
+    padding: 5px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+
+#serviceHeaderName {
+font-weight: 600;
+}
+
