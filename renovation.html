@@ -22,15 +22,17 @@
   <header id="service_header">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-      <div class="container">
+
              <a class="navbar-brand" target="_self" href="index.html">
           <div id="header_logo"></div>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topMenuNav"
+          aria-controls="topMenuNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="topMenuNav">
+          <!-- Links -->
           <ul class="navbar-nav mr-auto smooth-scroll">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home </a>
@@ -38,9 +40,67 @@
             <li class="nav-item">
               <a class="nav-link" href="#about" data-offset="30">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#services" data-offset="30">Services <span class="sr-only">(current)</span></a>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown multi-level-dropdown">
+              <a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle w-100">Services</a>
+              <ul class="dropdown-menu mt-2 rounded-3 menu-grey-color border-0 z-depth-1">
+                <li class="dropdown-item dropdown-submenu p-0">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Landscaping Design </a>
+                  <ul class="dropdown-menu ml-2 rounded-3 menu-grey-color border-0 z-depth-1">
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Hey</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Hi</a>
+                    </li>
+
+                  </ul>
+                </li>
+                <li class="dropdown-item dropdown-submenu">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Landscaping Maintenance </a>
+                  <ul class="dropdown-menu mr-2 rounded-3  menu-grey-color border-0 z-depth-1 r-50 ">
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">How</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">are</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">you </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown-item dropdown-submenu">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle text-white w-100">Landscaping Renovation</a>
+                  <ul class="dropdown-menu mr-2 rounded-3  menu-grey-color border-0 z-depth-1 r-50 ">
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Landscape Lighting</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Stonework</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Outdoor Fireplaces</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Irrigation/Drip Irrigation</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Drainage construction</a>
+                    </li>
+                    <li class="dropdown-item p-0">
+                      <a href="#" class="text-white w-100">Excavation service</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </li>
+
+            <!-- Links -->
+
+
+
+
             <li class="nav-item">
               <a class="nav-link" href="#projects" data-offset="30">Projects</a>
             </li>
@@ -73,7 +133,7 @@
           </ul>
           <!-- /.Social Icon -->
         </div>
-      </div>
+
     </nav>
     <!-- /.Navbar -->
 
@@ -456,7 +516,7 @@ a matter of hours to help you.</p>
   <!-- /.Main layout -->
 
   <!-- Scrollspy -->
-  <div class="dotted-scrollspy clearfix d-none d-sm-block">
+  <!-- <div class="dotted-scrollspy clearfix d-none d-sm-block">
     <ul class="nav smooth-scroll flex-column">
       <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
       <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
@@ -464,7 +524,7 @@ a matter of hours to help you.</p>
       <li class="nav-item"><a class="nav-link" href="#testimonials"><span></span></a></li>
       <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
     </ul>
-  </div>
+  </div> -->
   <!-- /.Scrollspy -->
 
   <!-- SCRIPTS -->

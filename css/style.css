@@ -75,17 +75,35 @@ header,
 /* custom scrolling navbar color */
 .model .navbar:not(.top-nav-collapse) {
     background-color: rgba(0, 0, 0, .65);
-    /* background-color: transparent; */
-    font-size: 120%;
     letter-spacing: 1px;
     font-weight: 500;
 }
 
 .model .navbar {
     background-color: rgba(0, 0, 0, .85);
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 
 
+.dropdown-item {
+    background-color: rgba(0, 0, 0, .85);
+
+}
+
+.menu-grey-color {
+    background-color: rgba(0, 0, 0, .85);
+
+}
+
+.dropdown-menu {
+    rgba(0, 0, 0, .85);
+}
+
+.navbar .dropdown.multi-level-dropdown .dropdown-menu .dropdown-item:hover {
+    background: rgba(139, 195, 74, .7);
+
+}
 
 .model .rgba-gradient-mask {
     background: linear-gradient(45deg, rgba(139, 195, 74, .7), rgba(74, 189, 195, .8));
@@ -294,7 +312,7 @@ border-top {
 
 /* collapse header   */
 #service_header {
- height: 0px;
+    height: 0px;
 }
 
 /* transpar ent of card color */
@@ -320,6 +338,5 @@ border-top {
 }
 
 #serviceHeaderName {
-font-weight: 600;
+    font-weight: 600;
 }
-
