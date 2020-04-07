@@ -54,6 +54,19 @@ header,
 
 }
 
+/* making navbar smaller */
+@media (min-width: 600px) {
+.navbar.scrolling-navbar {
+    padding-top: 5px;
+    padding-bottom: 0px;
+    }
+.navbar.scrolling-navbar.top-nav-collapse {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+}
+
+
 #header_logo {
     float: left;
     width: 110px;
@@ -93,11 +106,13 @@ header,
 
 .menu-grey-color {
     background-color: rgba(0, 0, 0, .85);
+    padding: 0px;
+    margin: 0px;
 
 }
 
 .dropdown-menu {
-    rgba(0, 0, 0, .85);
+    background-color: rgba (0, 0, 0, .85);
 }
 
 .navbar .dropdown.multi-level-dropdown .dropdown-menu .dropdown-item:hover {
@@ -320,7 +335,7 @@ border-top {
     background-color: rgb(255, 255, 255, 0.65);
 }
 
-#serviceHeader {
+#serviceHeaderbrown {
     /* position: absolute; */
     /* left: 40px;
     right: 40px; */
@@ -337,6 +352,24 @@ border-top {
     text-align: right;
 }
 
+#serviceHeaderblue {
+    /* position: absolute; */
+    /* left: 40px;
+    right: 40px; */
+    /* display: inline-block; */
+    background: #0a212f;
+    color: white;
+    /* -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%); */
+    padding: 5px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+
 #serviceHeaderName {
     font-weight: 600;
 }
+
