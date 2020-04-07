@@ -66,6 +66,13 @@ header,
 }
 }
 
+@media (max-width: 991px) {
+    .dropdown-toggle::after {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 
 #header_logo {
     float: left;
@@ -358,6 +365,23 @@ border-top {
     right: 40px; */
     /* display: inline-block; */
     background: #0a212f;
+    color: white;
+    /* -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+    transform: skew(-10deg) rotate(-10deg) translate(0, -50%); */
+    padding: 5px 5px;
+    margin: 0;
+    top: 50%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: right;
+}
+
+#serviceHeaderred {
+    /* position: absolute; */
+    /* left: 40px;
+    right: 40px; */
+    /* display: inline-block; */
+    background: #36100c;
     color: white;
     /* -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
     transform: skew(-10deg) rotate(-10deg) translate(0, -50%); */
