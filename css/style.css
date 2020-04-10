@@ -124,8 +124,16 @@ header,
 
 .navbar .dropdown.multi-level-dropdown .dropdown-menu .dropdown-item:hover {
     background: rgba(139, 195, 74, .7);
-
 }
+
+.dropdown-item .a:hover{
+    background: rgba(139, 195, 74, .7);
+}
+
+.dropdown .dropdown-menu .dropdown-primary .dropdown-item a.active {
+background: rgba(139, 195, 74, .7);
+}
+
 
 .model .rgba-gradient-mask {
     background: linear-gradient(45deg, rgba(139, 195, 74, .7), rgba(74, 189, 195, .8));
