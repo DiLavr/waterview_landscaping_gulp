@@ -66,11 +66,28 @@ header,
 }
 }
 
-@media (max-width: 991px) {
+
+/* hide menu in mobile form navbar */
+/* @media (max-width: 991px) {
     .dropdown-toggle::after {
         visibility: hidden;
         display: none;
     }
+} */
+
+.dropdown .dropdown-menu.dropdown-primary .dropdown-item.active {
+    background-color: #8bc34a !important;
+}
+.dropdown .dropdown-menu.dropdown-primary .dropdown-item:hover {
+    background-color: #8bc34a !important;
+}
+
+#unique_jumbotron {
+padding: 10px 0px;
+margin: 0px;
+background-color: rgba(0, 0, 0, .75);
+border-radius: 25px;
+padding: 2rem;
 }
 
 
@@ -86,11 +103,7 @@ header,
     background: url(../img/nav_logo_with_outline_110x51.svg) top center no-repeat;
 }
 
-.model .jumbotron {
-    background-color: rgba(0, 0, 0, .75);
-    border-radius: 25px;
-    padding: 2rem;
-}
+
 
 /* custom scrolling navbar color */
 .model .navbar:not(.top-nav-collapse) {
