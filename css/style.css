@@ -418,3 +418,11 @@ border-top {
     font-weight: 600;
 }
 
+/* custom for icon */
+
+img.icon8 {
+width: 32px;
+height: 32px;
+vertical-align: baseline;
+
+}
